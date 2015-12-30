@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.jianda.qiubai.fragments.QiushiFragment">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/qiushi_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="#000"
+        app:tabSelectedTextColor="#eabb20"
+        app:tabMode="fixed"
+        app:tabIndicatorColor = "#eabb20"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/qiushi_viewpager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>
